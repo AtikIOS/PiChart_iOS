@@ -6,36 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEEC29712D611DB1001C9807 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = BEEC29702D611DB1001C9807 /* DGCharts */; };
+		BEF56C902D611A8B00A57F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF56C862D611A8B00A57F61 /* AppDelegate.swift */; };
+		BEF56C912D611A8B00A57F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF56C8D2D611A8B00A57F61 /* SceneDelegate.swift */; };
+		BEF56C922D611A8B00A57F61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF56C8E2D611A8B00A57F61 /* ViewController.swift */; };
+		BEF56C932D611A8B00A57F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF56C872D611A8B00A57F61 /* Assets.xcassets */; };
+		BEF56C952D611A8B00A57F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF56C8A2D611A8B00A57F61 /* LaunchScreen.storyboard */; };
+		BEF56C962D611A8B00A57F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF56C8C2D611A8B00A57F61 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BEF56C6E2D611A8000A57F61 /* PiChart_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiChart_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF56C862D611A8B00A57F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF56C872D611A8B00A57F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF56C882D611A8B00A57F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF56C892D611A8B00A57F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF56C8B2D611A8B00A57F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF56C8D2D611A8B00A57F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF56C8E2D611A8B00A57F61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEF56C802D611A8200A57F61 /* Exceptions for "PiChart_iOS" folder in "PiChart_iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEF56C6D2D611A8000A57F61 /* PiChart_iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEF56C702D611A8000A57F61 /* PiChart_iOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEF56C802D611A8200A57F61 /* Exceptions for "PiChart_iOS" folder in "PiChart_iOS" target */,
-			);
-			path = PiChart_iOS;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEF56C6B2D611A8000A57F61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEC29712D611DB1001C9807 /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +42,7 @@
 		BEF56C652D611A8000A57F61 = {
 			isa = PBXGroup;
 			children = (
-				BEF56C702D611A8000A57F61 /* PiChart_iOS */,
+				BEF56C8F2D611A8B00A57F61 /* PiChart_iOS */,
 				BEF56C6F2D611A8000A57F61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,20 @@
 				BEF56C6E2D611A8000A57F61 /* PiChart_iOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF56C8F2D611A8B00A57F61 /* PiChart_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEF56C862D611A8B00A57F61 /* AppDelegate.swift */,
+				BEF56C872D611A8B00A57F61 /* Assets.xcassets */,
+				BEF56C882D611A8B00A57F61 /* Info.plist */,
+				BEF56C8A2D611A8B00A57F61 /* LaunchScreen.storyboard */,
+				BEF56C8C2D611A8B00A57F61 /* Main.storyboard */,
+				BEF56C8D2D611A8B00A57F61 /* SceneDelegate.swift */,
+				BEF56C8E2D611A8B00A57F61 /* ViewController.swift */,
+			);
+			path = PiChart_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +84,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BEF56C702D611A8000A57F61 /* PiChart_iOS */,
-			);
 			name = PiChart_iOS;
 			packageProductDependencies = (
+				BEEC29702D611DB1001C9807 /* DGCharts */,
 			);
 			productName = PiChart_iOS;
 			productReference = BEF56C6E2D611A8000A57F61 /* PiChart_iOS.app */;
@@ -107,6 +116,9 @@
 			);
 			mainGroup = BEF56C652D611A8000A57F61;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BEEC296F2D611DB1001C9807 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BEF56C6F2D611A8000A57F61 /* Products */;
 			projectDirPath = "";
@@ -122,6 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF56C932D611A8B00A57F61 /* Assets.xcassets in Resources */,
+				BEF56C952D611A8B00A57F61 /* LaunchScreen.storyboard in Resources */,
+				BEF56C962D611A8B00A57F61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +147,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF56C902D611A8B00A57F61 /* AppDelegate.swift in Sources */,
+				BEF56C912D611A8B00A57F61 /* SceneDelegate.swift in Sources */,
+				BEF56C922D611A8B00A57F61 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF56C8A2D611A8B00A57F61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF56C892D611A8B00A57F61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF56C8C2D611A8B00A57F61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF56C8B2D611A8B00A57F61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEF56C822D611A8200A57F61 /* Debug */ = {
@@ -333,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEEC296F2D611DB1001C9807 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEEC29702D611DB1001C9807 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEEC296F2D611DB1001C9807 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEF56C662D611A8000A57F61 /* Project object */;
 }
